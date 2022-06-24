@@ -1,0 +1,29 @@
+body{
+    background-color: #03233a;
+}
+
+.garislurus{
+    position: absolute;
+    width: 55cm;
+    height: 5cm;
+    top: 37%;
+    box-shadow: 10px 6px 6cm black;
+   
+    
+}
+
+.putih {
+    position: absolute;
+    width: 10cm;
+    height: 9cm;
+    left: 22.2cm;
+    top: 7.2cm;
+}
+.header {
+    color: blueviolet;
+}
+
+
+
+
+
