@@ -2,11 +2,13 @@
         @media screen and (min-width:376px) and (max-width:426px){
     .notfound {
         display: none;
+        
     }
     .IntroImage {
         /* background-color: aqua; */
         width: auto;
         height: 100%;
+        background-color: lightgreen;
     
     }
     .IntroImage img {
@@ -109,6 +111,7 @@
     .IntroImage {
         /* background-color: aqua; */
         width: auto;
+        background-color: lightblue;
         height: 100%;  
     }
     .IntroImage img {
@@ -117,6 +120,7 @@
         margin-left: auto;
         width: 300px;
         height: 300px;    
+        
     } 
     body {
         margin: 0%;  
