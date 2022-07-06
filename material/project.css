@@ -1,47 +1,31 @@
-@font-face {
-    font-family: Arial Narrow;
-    src: url(ARIALN.TTF);
-}
-@font-face {
-    font-family: Gill Sans MT Condensed;
-    src: url(GILC____.TTF);
-}
 
-@media screen and (min-width:376px) and (max-width:426px){
-
+        @media screen and (min-width:376px) and (max-width:426px){
+    .notfound {
+        display: none;
+    }
     .IntroImage {
         /* background-color: aqua; */
         width: auto;
         height: 100%;
-        
+    
     }
     .IntroImage img {
         display: block;
         margin-right: auto;
         margin-left: auto;
         width: 300px;
-        height: 300px;
-    
-        
-    }
-    
+        height: 300px;     
+    }   
     body {
-        margin: 0%;
-         position: fixed;  
+        margin: 0%;      
     }
-    
     .login {
-        /* background-color: aqua; */
-        position: relative;
-        bottom: 60px;
-        width: auto;
-        
+       margin-top: -4em;    
     }
     .login form {
-        display: inline;
-        position: relative;
-        left: 105px;
-      
+       width: 175px;
+        margin-left: auto;
+        margin-right: auto;  
     }
     .login .text {
         border: 4px solid white;
@@ -52,14 +36,10 @@
         border: 4px solid white;
         border-radius: 4px;
         box-shadow: 1px 1px 4px black;
-    
     }
-    .login label {
-        
+    .login label { 
         font-family: Arial Narrow;
     }
-    
-    
     .perbawah img {
         width: 40%;
         /* background-color: blue; */
@@ -72,45 +52,144 @@
    .per1 {
     position: relative;
     bottom: 150px;
-    left: 30px;
-    width: 20%;
+    left: 2em;
+    width: 16%;
     height: auto;
    }
-   
     .tekan {
-        /* background-color: red; */
-        
+    margin-top: 1.5em;
+   width: 177px;
+   margin-right: auto;
+   margin-left: auto;       
     }
-    .tekan button {
-        display: block;
+    .tekan a button {    
+        width: 175px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2666fa;
         color: white;
-        width: 62%;
-        height: 23px;
         border: 4px solid #2666fa;
         border-radius: 5px;
         box-shadow: 1px 1px 4px black;
-        cursor: pointer;
-        
+        cursor: pointer;           
     }
-    .description h1 {
-        
+    .description h1 {      
         text-align: center;
         font-family: Arial Narrow;
         font-weight: normal;
         margin: 0%;
      
+    } 
+    .para p {
+        text-align: center;
+        font-family: Gill Sans MT Condensed;
+        font-size: 1.1em;
+        word-spacing: -3px;
+        color: #939393;   
+        margin: 0%;
     }
-   
+   .pages2 h1{
+       display: inline-block;
+        text-decoration: underline;
+        font-size: 1.9em;
+        text-shadow: 1px 1px 6px yellow;
+        margin: 0% 2% 0% 2%;
+    }
+    .pages2 {  
+        height: auto;     
+    }
+}
+
+
+
+        @media screen and (min-width: 321px) and (max-width:376px){ 
+    .notfound {
+        display: none;
+    }
+    .IntroImage {
+        /* background-color: aqua; */
+        width: auto;
+        height: 100%;  
+    }
+    .IntroImage img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+        height: 300px;    
+    } 
+    body {
+        margin: 0%;  
+    }
+    .login {
+        /* background-color: aqua; */
+       
+        margin-top: -3em;
+        width: auto;     
+    }
+    .login form {
+        width: 175px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .login .text {
+        border: 4px solid white;
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px black;
+    }
+    .login .password {
+        border: 4px solid white;
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px black;
+    }
+    .login label {
+        
+        font-family: Arial Narrow;
+    }
+    .perbawah img {
+        width: 40%;
+        /* background-color: blue; */
+        height: auto;
+        position: absolute;
+        top: 37%;
+        left: -10%;
+        display: inline-block;
+    }
+   .per1 {
+    position: relative;
+    bottom: 150px;
+    left: 2em;
+    width: 15%;
+    height: auto;
+   }
+   .tekan {
+    width: 177px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+   }
+    .tekan  a button {
+        background-color: #2666fa;
+        color: white;
+        width: 175px;
+        border: 4px solid #2666fa;
+        border-radius: 5px;
+        box-shadow: 1px 1px 4px black;
+        cursor: pointer;    
+    }
+    .description h1 {  
+        text-align: center;
+        font-family: Arial Narrow;
+        font-weight: normal;
+        margin: 0%;
+    }
     .para p {
         text-align: center;
         font-family: Gill Sans MT Condensed;
         font-size: 1.1em;
         word-spacing: -3px;
         color: #939393;
-        
         margin: 0%;
     }
    .pages2 h1{
@@ -126,257 +205,59 @@
         
         
     } 
-    }
+} 
 
-
-
-@media screen and (min-width: 321px) and (max-width:376px){
     
+
+        @media screen and (max-width:321px){
     
     .IntroImage {
-        /* background-color: aqua; */
-        width: auto;
-        height: 100%;
-        background-color: yellow;
-        
+     display: none;
     }
     .IntroImage img {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 300px;
-        height: 300px;
-    
-        
+        display: none;
     }
-    
     body {
         margin: 0%;
-         position: fixed;  
     }
-    
     .login {
-        /* background-color: aqua; */
-       
-        margin-top: -60px;
-        width: auto;
-        background-color: blue;
-        
+        display: none;   
     }
     .login form {
-        background-color: yellow;
-       
-        margin-left: auto;
-        margin-right: auto;
-      
+        display: none;
     }
     .login .text {
-        border: 4px solid white;
-        border-radius: 4px;
-        box-shadow: 1px 1px 4px black;
+        display: none;
     }
     .login .password {
-        border: 4px solid white;
-        border-radius: 4px;
-        box-shadow: 1px 1px 4px black;
-    
-    }
-    .login label {
-        
-        font-family: Arial Narrow;
-    }
-    
-    
-    .perbawah img {
-        width: 40%;
-        /* background-color: blue; */
-        height: auto;
-        position: absolute;
-        top: 37%;
-        left: -10%;
-        display: inline-block;
-    }
-   .per1 {
-    position: relative;
-    bottom: 150px;
-    left: 30px;
-    width: 20%;
-    height: auto;
-   }
-   
-    .tekan {
-        /* background-color: red; */
-        
+        display: none;
     }
     .tekan button {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #2666fa;
-        color: white;
-        width: 62%;
-        height: 23px;
-        border: 4px solid #2666fa;
-        border-radius: 5px;
-        box-shadow: 1px 1px 4px black;
-        cursor: pointer;
-        
+        display: none;
     }
     .description h1 {
-        
-        text-align: center;
-        font-family: Arial Narrow;
-        font-weight: normal;
-        margin: 0%;
-     
+        display: none;
     }
    
     .para p {
-        text-align: center;
-        font-family: Gill Sans MT Condensed;
-        font-size: 1.1em;
-        word-spacing: -3px;
-        color: #939393;
-        
-        margin: 0%;
+        display: none;
     }
    .pages2 h1{
-       display: inline-block;
-        text-decoration: underline;
-        font-size: 1.9em;
-        text-shadow: 1px 1px 6px yellow;
-        margin: 0% 2% 0% 2%;
+    display: none;
     }
     .pages2 {
-       
-        height: auto;
-        
-        
+        display: none;  
     } 
+    .per1 {
+        display: none;
     }
-
-    
-
-@media screen and (min-width:230px) and (max-width:321px){
-    
-    .IntroImage {
-        /* background-color: aqua; */
-        width: auto;
-        height: 100%;
+    .notfound {
         background-color: red;
-        
     }
-    .IntroImage img {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 300px;
-        height: 300px;
-    
-        
-    }
-    
-    body {
+    .notfound h2 {
         margin: 0%;
-         position: fixed;  
-    }
-    
-    .login {
-        /* background-color: aqua; */
-        position: relative;
-        bottom: 60px;
-        width: auto;
-        
-    }
-    .login form {
-        display: inline;
-        position: relative;
-        left: 105px;
-      
-    }
-    .login .text {
-        border: 4px solid white;
-        border-radius: 4px;
-        box-shadow: 1px 1px 4px black;
-    }
-    .login .password {
-        border: 4px solid white;
-        border-radius: 4px;
-        box-shadow: 1px 1px 4px black;
-    
-    }
-    .login label {
-        
-        font-family: Arial Narrow;
-    }
-    
-    
-    .perbawah img {
-        width: 40%;
-        /* background-color: blue; */
-        height: auto;
-        position: absolute;
-        top: 37%;
-        left: -10%;
-        display: inline-block;
-    }
-   .per1 {
-    position: relative;
-    bottom: 150px;
-    left: 30px;
-    width: 20%;
-    height: auto;
-   }
-   
-    .tekan {
-        /* background-color: red; */
-        
-    }
-    .tekan button {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #2666fa;
-        color: white;
-        width: 62%;
-        height: 23px;
-        border: 4px solid #2666fa;
-        border-radius: 5px;
-        box-shadow: 1px 1px 4px black;
-        cursor: pointer;
-        
-    }
-    .description h1 {
-        
         text-align: center;
-        font-family: Arial Narrow;
-        font-weight: normal;
-        margin: 0%;
-     
     }
-   
-    .para p {
-        text-align: center;
-        font-family: Gill Sans MT Condensed;
-        font-size: 1.1em;
-        word-spacing: -3px;
-        color: #939393;
-        
-        margin: 0%;
-    }
-   .pages2 h1{
-       display: inline-block;
-        text-decoration: underline;
-        font-size: 1.9em;
-        text-shadow: 1px 1px 6px yellow;
-        margin: 0% 2% 0% 2%;
-    }
-    .pages2 {
-       
-        height: auto;
-        
-        
-    } 
 
 }
     
