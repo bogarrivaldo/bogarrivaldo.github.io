@@ -20,10 +20,10 @@
     }   
     body {
         margin: 0%;   
-        background-color: lightgreen;   
+        background-color: lightblue;
     }
     .login {
-       margin-top: -40px;    
+      margin-top: -5px;
     }
     .login form {
        width: 175px;
@@ -83,7 +83,6 @@
     .description h1 {      
         text-align: center;
         font-family: Arial Narrow;
-        font-weight: normal;
         margin: 0%;
      
     } 
@@ -91,8 +90,8 @@
         text-align: center;
         font-family: Gill Sans MT Condensed;
         font-size: 1.1em;
-        word-spacing: -3px;
-        color: #939393;   
+        word-spacing: -2px;
+        color: white; 
         margin: 0%;
     }
    .pages2 h1{
@@ -116,7 +115,7 @@
     .IntroImage {
         /* background-color: aqua; */
         width: auto;
-        background-color: lightblue;
+        
         height: 100%;  
     }
     .IntroImage img {
@@ -128,12 +127,13 @@
         
     } 
     body {
-        margin: 0%;  
+        margin: 0%;
+        background-color: aquamarine;
     }
     .login {
         /* background-color: aqua; */
        
-        margin-top: -35px;
+        margin-top: -5px;
         width: auto;     
     }
     .login form {
@@ -197,7 +197,6 @@
     .description h1 {  
         text-align: center;
         font-family: Arial Narrow;
-        font-weight: normal;
         margin: 0%;
     }
     .para p {
