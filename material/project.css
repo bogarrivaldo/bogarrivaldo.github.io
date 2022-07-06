@@ -8,7 +8,7 @@
         /* background-color: aqua; */
         width: auto;
         height: 100%;
-        background-color: lightcoral;
+        background-color: lightseagreen;
     
     }
     .IntroImage img {
@@ -30,19 +30,21 @@
         margin-right: auto;  
     }
     .login .text {
-       
+       box-sizing: border-box;
+       width: 150px;
         border: 4px solid white;
         border-radius: 4px;
         box-shadow: 1px 1px 4px black;
     }
     .login .password {
+        box-sizing: border-box;
+        width: 150px;
         border: 4px solid white;
         border-radius: 4px;
         box-shadow: 1px 1px 4px black;
     }
-    .login label { 
-        font-family: Arial Narrow;
-    }
+    
+    
     .perbawah img {
         width: 40%;
         /* background-color: blue; */
@@ -67,7 +69,7 @@
     }
     .tekan a button {    
         box-sizing: border-box;
-        width: 183px;
+        width: 150px;
         margin-left: auto;
         margin-right: auto;
         background-color: #2666fa;
@@ -102,9 +104,9 @@
     .pages2 {  
         height: auto;     
     }
-}
 
 
+        }
 
         @media screen and (min-width: 321px) and (max-width:376px){ 
     .notfound {
